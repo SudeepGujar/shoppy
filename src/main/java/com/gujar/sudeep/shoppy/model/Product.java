@@ -1,10 +1,11 @@
 package com.gujar.sudeep.shoppy.model;
 
 import lombok.*;
-import org.springframework.data.annotation.Id;
-import org.springframework.data.mongodb.core.mapping.Document;
 
-@Document
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
 @Getter
 @Setter
 @AllArgsConstructor
